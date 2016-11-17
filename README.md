@@ -5,6 +5,8 @@
 
 ## Filter Events
 
+FilterEvents (http://docs.mantidproject.org/nightly/algorithms/FilterEvents-v1.html)
+
 ### Mandatory Inputs
 1. Input EventWorkspace for splitting from;
 2. SplitterWorkspace
