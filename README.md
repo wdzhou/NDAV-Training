@@ -10,13 +10,16 @@
 2. SplitterWorkspace
   * SplittersWorkspace
   * MatrixWorkspace
+  
   containing:
-  * Time ticks for the range of a 
-  * Target workspace (index)
+  * Time stamps: absolute time or relative time (run start time or user defined time)
+  * Target workspace
 
 ### Optional Inputs
 1. Splitting information TableWorkspace
-2. TOF correction MatrixWorkspace
+2. TOF correction from detector to sample
+  * TOF correction MatrixWorkspace
+  * from instrument geometry: elastic, direct and indirect
 
 
 
