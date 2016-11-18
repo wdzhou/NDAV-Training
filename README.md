@@ -29,7 +29,7 @@ FilterEvents (http://docs.mantidproject.org/nightly/algorithms/FilterEvents-v1.h
 
 ## Generate Events Filter Manually
 
-User can create an arbitrary SplittersWorkspace or MatrixWorkspace according to their request.
+Users can create an arbitrary SplittersWorkspace or MatrixWorkspace according to their request.
 They are required to be familiar with Mantid and Python.
 
 ## Generate Events Filter By Mantid Algorithms
