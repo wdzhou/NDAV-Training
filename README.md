@@ -50,3 +50,8 @@ GenerateEventsFilter (http://docs.mantidproject.org/nightly/algorithms/GenerateE
 4. Changing direction of log value: both, up or down
 
 ### MantidPlot - Filter Events GUI
+
+## Examples
+
+### Fast log
+ * Corelli IPTS-15811 Run 25621
