@@ -9,13 +9,16 @@ FilterEvents (http://docs.mantidproject.org/nightly/algorithms/FilterEvents-v1.h
 
 ### Mandatory Inputs
 1. Input EventWorkspace for splitting from;
-2. SplitterWorkspace
+2. Splitters
   * SplittersWorkspace
   * MatrixWorkspace
   
-  containing:
-  * Time stamps: absolute time or relative time (run start time or user defined time)
-  * Target workspace
+  Each splitter is composed by
+  * Start time;
+  * Stop time;
+  * Target workspace number
+  
+  Start and stop time can be either absolute time (epoch time) or relative time (to run start time or user defined time)
 
 ### Optional Inputs
 1. Splitting information TableWorkspace
@@ -43,3 +46,5 @@ GenerateEventsFilter (http://docs.mantidproject.org/nightly/algorithms/GenerateE
 2. Maximum log value
 3. Log value step
 4. Changing direction of log value: both, up or down
+
+### MantidPlot - Filter Events GUI
