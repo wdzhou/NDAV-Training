@@ -26,11 +26,12 @@ FilterEvents (http://docs.mantidproject.org/nightly/algorithms/FilterEvents-v1.h
   * TOF correction MatrixWorkspace
   * from instrument geometry: elastic, direct and indirect
 
-
-
 ## Generate Events Filter Manually
 
-## Generate Events Filter By 
+User can create an arbitrary SplittersWorkspace or MatrixWorkspace according to their request.
+They are required to be familiar with Mantid and Python.
+
+## Generate Events Filter By Mantid Algorithms
 
 GenerateEventsFilter (http://docs.mantidproject.org/nightly/algorithms/GenerateEventsFilter-v1.html) can help to generate splitters workspace if user wants to filter events by constant time step or by constant log value step.
 
